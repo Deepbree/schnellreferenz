@@ -1,10 +1,10 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Gelegenheitsangriff",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        subtitle: "Ein Feind verlässt deinen Bereich",
+        description: "Man kann selten einfachso an seinen Feinden vorbei ohne sich in Gefahr zu bringen",
+        reference: "PHB, Seite 195.",
         bullets: [
             "Trigger: enemy creature leaves your reach.",
             "Make one melee attack against the provoking creature.",
@@ -13,20 +13,20 @@ data_reaction = [
         ]
     },
     {
-        title: "Readied action",
+        title: "Vorbereitete Aktion",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        subtitle: "Teil des Vorbereitens",
+        description: "Führe die Aktion die durch deine Vorbereiten-Aktion ausgelöst wurde aus",
+        reference: "PHB, Seite 193.",
         bullets: [
             "Trigger: specified by your <i>Ready</i> action."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Zauberwirken",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Zauberzeit von 1 Reaktion",
+        description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Reaktion",
         reference: "PHB, pg. 192.",
         bullets: [
             "Trigger: specified by the spell.",

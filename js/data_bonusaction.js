@@ -1,10 +1,10 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Angriff mit Zweitwaffe",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Mit der Angriffsaktion zu benutzen",
+        description: "Greife mit deiner zweiten Waffe an",
+        reference: "PHB, Seiten 192,194-195.",
         bullets: [
             "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
             "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
@@ -13,21 +13,21 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Zauberwirken",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Zauberzeit von 1 Bonusaktion",
+        description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Bonusaktion",
+        reference: "PHB, Seite 192.",
         bullets: [
             "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
             "For further details, see the <i>Cast a spell</i> action."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
+        subtitle: "Einige Merkmale verbrauchen eine Bonusaktion",
+        description: "Nutze ein Rassen- oder Klassenmerkmal, das eine Bonusaktion verbraucht",
         reference: "See class page for more information.",
         bullets: [
 

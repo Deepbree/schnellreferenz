@@ -1,124 +1,123 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Bewegen",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        subtitle: "Kosten: 5ft pro 5ft",
+        description: "Bewegungskosten: 5ft pro 5ft bewegen",
+        reference: "PHB, Seite 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Wenn du mehr als eine Bewegungsrate hast, so wie eine Gehbewegungsrate und eine Flugbewegungsrate, kannst du während deiner Bewegung zwischen ihnen hin und her wechseln. Wann immer du wechselst, zieh die Gesamtdistanz, die du dich bisher bewegt hast, von der neuen Bewegungsrate ab",
+			"Du kannst dich durch den Bereich einer nichtfeindlichen Kreatur bewegen",
+			"Du kannst dich nur dann durch den Bereich einer feindlichen Kreatur bewegen, wenn sie mindestens zwei Größenkategorien größer oder kleiner als du ist",
+			"Der Bereich einer anderen Kreatur ist für dich Schwieriges Gelände",
+            "Du kannst deinen Zug nicht willentlich im Bereich einer Kreatur beenden, egal ob sie Freund oder Feind ist."
         ]
     },
     {
-        title: "Climb",
+        title: "Klettern",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 10ft pro 5ft",
+        description: "Bewegungskosten: 10ft pro 5ft klettern",
+        reference: "PHB, Seite 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Kann eine Probe auf Stärke (Athletik) beinhalten, wenn die Strecke schwierig zu klettern ist"
         ]
     },
     {
-        title: "Swim",
+        title: "Schwimmen",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 10ft pro 5ft",
+        description: "Bewegungskosten: 10ft pro 5ft schwimmen",
+        reference: "PHB, Seite 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Kann eine Probe auf Stärke (Athletik) beinhalten, wenn die Strecke schwierig zu schwimmen ist"
         ]
     },
     {
-        title: "Drop prone",
+        title: "Sich fallen lassen",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        subtitle: "Kosten: 0ft",
+        description: "Bewegungskosten: 0ft (frei)",
+        reference: "PHB, pgs. 190-191,291.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Du kannst dich fallen lassen ohne deine Bewegungsrate aufzubrauchen",
+			"Um sich liegend zu bewegen, musst du kriechen oder Magie (wie Teleportation) nutzen",
+			"Wenn man sich fallen lässt, erhält man den Zustand <i>Liegend</i> (Nahkampfangriffe gegen dich haben Vorteil, Fernkampfangriffe haben Nachteil, deine eigenen Angriffe haben Nachteil)",
         ]
     },
     {
-        title: "Crawl",
+        title: "Kriechen",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 10ft pro 5ft",
+        description: "Bewegungskosten: 10ft pro 5ft kriechen",
+        reference: "PHB, Seite 182.",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "Aufstehen",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        subtitle: "Kosten: halbe Bewegungsrate",
+        description: "Bewegungskosten: Hälfte deiner vollen Bewegungsrate",
+        reference: "PHB, Seite 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Wenn deine Geschwindigkeit 0 ist, oder du nicht mehr genügend Bewegunsrate übrig hast, kannst du nicht aufstehen"
         ]
     },
     {
-        title: "High jump",
+        title: "Hochsprung",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Kosten: 5ft pro 5ft",
+        description: "Bewegungskosten: 5ft pro 5ft gesprungen",
         
-        reference: "PHB, pg. 182.",
+        reference: "PHB, Seite 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "Du springst eine Distanz in die Höhe, die <b>3 + deinen Stärkemodifikator</b> Fuß entspricht, wenn du dich direkt vor dem Spring mindestens 10 Fuß bewegt hast.",
+			"Ohne Anlauf springst du halb so hoch",
+            "Während dem Sprung kannst du deine Arme um die Hälfte deiner Körpergröße ausstrecken",
+            "Unter Umständen erlaubt dein DM eine Probe auf Stärke (Athletik) um höher zu springen, als es normalerweise möglich wäre."
         ]
     },
     {
-        title: "Long jump",
+        title: "Weitsprung",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 5ft pro 5ft",
+        description: "Bewegungskosten: 5ft pro 5ft gesprungen",
+        reference: "PHB, Seite 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "Du springst eine Distanz weit, die deinem <b>Stärkewert</b> entspricht, wenn du dich direkt vor dem Spring mindestens 10 Fuß bewegt hast.",
+			"Ohne Anlauf springst du halb so weit",
+			"Könnten eine Probe auf Stärke (Athletik) gegen HG 10 beinhalten um ein niederes Hindernis (nicht höher als ein Viertel der Sprungdistanz) zu überspringen. Du triffst das Hindernis bei einer fehlgeschlagenen Probe.",
+            "Könnten eine Probe auf Geschicklichkeit (Akrobatic) gegen HG 10 beinhalten um in schwierigem Gelände auf den Füßen zu landen. Du erhälst den Zustand <i>Liegend</i> bei einer fehlgeschlagenen Probe.",
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvisiere",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Irgendein Kunststück",
+        description: "Führe jede Bewegung und jedes Kunststück aus, das du dir vorstellen kannst",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Wenn du eine Bewegung beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Schwieriges Gelände",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
-        reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        subtitle: "Zusatzkosten: +5ft pro 5ft",
+        reference: "PHB, Seite 182.",
+        description: "Bewegung in schwierigem Gelände kostet zusätzlich 5ft pro 5ft der Bewegung",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Ringend bewegen",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
-        reference: "PHB, pg. 195.",
+        subtitle: "Modifikator: Geschwindigkeit halbiert",
+        description: "Ziehe oder trage eine gepackte Kreatur mit dir",
+        reference: "PHB, Seite 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "Wenn du dich bewegst während du eine Kreatur im Haltegriff hast, ist deine Geschwindigkeit halbiert, es sei denn, die Kreatur ist zwei oder mehr Größenkategorien kleiner als du",
         ]
     }
 ]

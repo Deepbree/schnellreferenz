@@ -1,10 +1,10 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Blind",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du kannst nicht sehen",
+        description: "Du kannst nicht sehen",
+        reference: "PHB, Seite 290.",
         bullets: [
             "You automatically fail any ability check which requires sight.",
             "You have disadvantage on attack rolls.",
@@ -12,32 +12,32 @@ data_condition = [
         ]
     },
     {
-        title: "Charmed",
+        title: "Bezaubert",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du bist bezaubert",
+        description: "Du bist von einer anderen Kreatur bezaubert",
+        reference: "PHB, Seite 290.",
         bullets: [
             "You can't attack your charmer or target them with harmful abilities or magical effects.",
             "Your charmer has advantage on ability checks to interact socially with you."
         ]
     },
     {
-        title: "Deafened",
+        title: "Taub",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du kannst nicht hören",
+        description: "Du kannst nicht hören",
+        reference: "PHB, Seite 292.",
         bullets: [
             "You automatically fail any ability check which requires hearing."
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Erschöpfung",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        subtitle: "Du bist erschöpft",
+        description: "Erschöpfung wird in sechs Stufen unterschieden",
+        reference: "PHB, Seite 291.",
         bullets: [
             "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
             "You suffer the effect of your current level of exhaustion as well as all lower levels.",
@@ -45,22 +45,22 @@ data_condition = [
         ]
     },
     {
-        title: "Frightened",
+        title: "Verängstigt",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du bist verängstigt",
+        description: "Du bist verängstigt",
+        reference: "PHB, Seite 292.",
         bullets: [
             "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
             "You can't willingly move closer to the source of your fear."
         ]
     },
     {
-        title: "Grappled",
+        title: "Gepackt",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du bist gepackt",
+        description: "Du bist gepackt",
+        reference: "PHB, Seite 290.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
             "The condition ends if your grappler is incapacitated.",
@@ -68,20 +68,20 @@ data_condition = [
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Kampfunfähig",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
-        reference: "PHB, pg. 290.",
+        subtitle: "Weder Aktionen noch Reaktionen",
+        description: "Du kannst weder Aktionen noch Reaktionen ausführen",
+        reference: "PHB, Seite 290.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "Unsichtbar",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
-        reference: "PHB, pg. 291.",
+        subtitle: "Du kannst nicht gesehen werden",
+        description: "Ohne die Hilfe von Magie oder speziellen Sinnen kannst du nicht gesehen werden",
+        reference: "PHB, Seite 291.",
         bullets: [
             "For the purpose of hiding, you are heavily obscured.",
             "You can still be detected by any noise you make or tracks you leave.",
@@ -90,10 +90,10 @@ data_condition = [
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Gelähmt",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Du bist gelähmt",
+        description: "Du kannst nichts tun",
         bullets: [
             "You are incapacitated and can't move or speak.",
             "Attack rolls against you have advantage.",
@@ -102,11 +102,11 @@ data_condition = [
         ]
     },
     {
-        title: "Petrified",
+        title: "Versteinert",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
-        reference: "PHB, pg. 291.",
+        subtitle: "Du bist in Stein verwandelt",
+        description: "Du bist, zusammen mit allen nichtmagischen Objekten die du trägst oder mitführst, in eine feste, unbewegliche Substanz (meistens Stein) verwandelt worden",
+        reference: "PHB, Seite 291.",
         bullets: [
             "Your weight increases by a factor of ten, and you cease aging.",
             "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
@@ -117,21 +117,21 @@ data_condition = [
         ]
     },
     {
-        title: "Poisoned",
+        title: "Vergiftet",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist vergiftet",
+        description: "Du bist vergiftet",
+        reference: "PHB, Seite 292.",
         bullets: [
             "You have disadvantage on attack rolls and ability checks."
         ]
     },
     {
-        title: "Prone",
+        title: "Liegend",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du liegst",
+        description: "Du liegst",
+        reference: "PHB, Seite 292.",
         bullets: [
             "Your only movement option is to crawl, unless you stand up.",
             "You have disadvantage on attack rolls.",
@@ -139,11 +139,11 @@ data_condition = [
         ]
     },
     {
-        title: "Restrained",
+        title: "Festgesetzt",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist festgesetzt",
+        description: "Du bist festgesetzt",
+        reference: "PHB, Seite 292.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
             "You have disadvantage on attack rolls.",
@@ -152,11 +152,11 @@ data_condition = [
         ]
     },
     {
-        title: "Stunned",
+        title: "Betäubt",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist betäubt",
+        description: "Du bist betäubt",
+        reference: "PHB, Seite 292.",
         bullets: [
             "You are incapacitated, can't move, and can speak only falteringly.",
             "Attack rolls against you have advantage.",
@@ -164,11 +164,11 @@ data_condition = [
         ]
     },
     {
-        title: "Unconscious",
+        title: "Bewusstlos",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist bewusstlos",
+        description: "Du bist bewusstlos",
+        reference: "PHB, Seite 292.",
         bullets: [
             "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
             "You drop whatever you're holding and fall prone.",
