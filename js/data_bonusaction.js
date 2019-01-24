@@ -26,7 +26,7 @@ data_bonusaction = [
     {
         title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Merkmale die Bonusaktion nutzen",
+        subtitle: "Merkmale die Bonusaktionen nutzen",
         description: "Nutze ein Rassen- oder Klassenmerkmal, das eine Bonusaktion verbraucht",
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [

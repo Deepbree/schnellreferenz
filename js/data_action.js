@@ -167,7 +167,7 @@ data_action = [
     {
         title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Merkmale die Aktion nutzen",
+        subtitle: "Merkmale die Aktionen nutzen",
         description: "Nutze ein Rassen- oder Klassenmerkmal, das eine Aktion verbraucht",
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [
@@ -175,9 +175,20 @@ data_action = [
         ]
     },
     {
+        title: "Erste Hilfe",
+        icon: "medical-pack",
+        subtitle: "Verhindere den Tod",
+        description: "Stabilisiere eine Kreatur und verhindere, dass sie stirbt",
+        reference: "PHB, Seite 197.",
+        bullets: [
+            "Du kannst versuchen einer Kreatur mit 0 Trefferpunkten Erste Hilfe zu leisten, indem du einen Probe auf Weisheit (Medizin) gegen HG 10 ausführst. Bei einem Erfolg ist die Kreatur stabil, hat weiterhin 0 Trefferpunkte und ist <i>bewusstlos</i>, sie muss aber keine Todesrettungswürfe mehr machen.",
+			"Eine stabile Kreatur, die nicht geheilt wird, kommt nach 1d4 Stunden zu Bewusstsein und erhält einen Trefferpunkt zurück"
+        ]
+    },
+    {
         title: "Improvisiere",
         icon: "juggler",
-        subtitle: "Jeder andere Aktion",
+        subtitle: "Jede andere Aktion",
         description: "Vollführe jede Aktion, die du dir vorstellen kannst",
         reference: "PHB, Seite 193.",
         bullets: [

@@ -68,7 +68,7 @@ data_movement = [
     {
         title: "Hochsprung",
         icon: "wingfoot",
-        subtitle: "Kosten: 5ft pro 5ft",
+        subtitle: "Höhe: (3 + STR) ft",
         description: "Bewegungskosten: 5ft pro 5ft gesprungen",
         
         reference: "PHB, Seite 182.",
@@ -82,7 +82,7 @@ data_movement = [
     {
         title: "Weitsprung",
         icon: "wingfoot",
-        subtitle: "Kosten: 5ft pro 5ft",
+        subtitle: "Weite: Stärke ft",
         description: "Bewegungskosten: 5ft pro 5ft gesprungen",
         reference: "PHB, Seite 182.",
         bullets: [

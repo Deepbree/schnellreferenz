@@ -42,6 +42,7 @@ data_condition = [
             "<table><tr><th>Stufe</th><th></th><th></th><th style='text-align:left'>Effekt</th></tr><tr><td>1</td><td></td><td></td><td>Nachteil auf Fähigkeitenproben</td></tr><tr><td>2</td><td></td><td></td><td>Geschwindigkeit halbiert</td></tr><tr><td>3</td><td></td><td></td><td>Nachteil auf Angriffe und Rettungswürfe</td></tr><tr><td>4</td><td></td><td></td><td>Trefferpunkte-Maximum halbiert</td></tr><tr><td>5</td><td></td><td></td><td>Geschwindigkeit auf 0 reduziert</td></tr><tr><td>6</td><td></td><td></td><td>Tod</td></tr></table>",
             "Du erleidest den Effekt deiner aktuelle Erschöpfungsstufe, sowie aller niedrigeren Stufen.",
             "Eine lange Rast zu beenden reduziert deine Erschöpfungsstufe um 1, vorausgesetzt du hattest zu essen und zu trinken.",
+			"Von den Toten erweckt zu werden, reduziert deine Erschöpfungsstufe um 1"
         ]
     },
     {
@@ -176,6 +177,22 @@ data_condition = [
             "Angriffe gegen dich sind im Vorteil.",
 			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
             "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+        ]
+    },
+    {
+        title: "0 Trefferpunkte",
+        icon: "death-skull",
+        subtitle: "Du stirbst",
+        description: "Du stirbst",
+        reference: "PHB, Seite 197.",
+        bullets: [
+            "Du bist <i>bewusstlos</i>, es sei denn, du hast auf einmal soviel Schaden erhalten, dass du auf 0 Trefferpunkte fällst und der überschüssige Schaden noch einmal mindestens so hoch wie dein Trefferpunkte-Maximum ist. In diesem Fall stirbst du sofort.",
+            "Diese Bewusstlosigkeit endet, wenn du mindestens einen Trefferpunkt erhältst.",
+            "Wenn du deinen Zug mit 0 Trefferpunkten beginnst, musst du einen Todesrettungswurf machen. Würfle einen W20. Ein Ergebnis von mindestens 10 ist ein Erfolg, darunter ein Misserfolg. Bei deinem dritten Erfolg bist du stabil. Bei deinem dritten Misserfolg stirbst du.",
+			"Eine gewürfelte 1 wird als zwei Misserfolge gewertet. Bei einer gewürfelten 20 erhältst du sofort einen Trefferpunkt.",
+			"Wenn du Schaden erleidest während du 0 Trefferpunkte hast, erleidest du einen Misserfolg. Bei einem kritischen Treffer, erleidest zu zwei Misserfolge.",
+			"Angriffe gegen dich sind im Vorteil (siehe <i>bewusstlos</i>).",
+			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist (siehe <i>bewusstlos</i>).",
         ]
     }
 ]
