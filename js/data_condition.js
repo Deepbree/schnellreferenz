@@ -6,9 +6,9 @@ data_condition = [
         description: "Du kannst nicht sehen",
         reference: "PHB, Seite 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Du verlierst Fähigkeitenproben, die Sicht benötigen, automatisch.",
+			"Du hast Nachteil auf Angriffswürfe.",
+            "Angriffswürfe gegen dich haben Vorteil.",
         ]
     },
     {
@@ -18,8 +18,8 @@ data_condition = [
         description: "Du bist von einer anderen Kreatur bezaubert",
         reference: "PHB, Seite 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Du kannst den Bezaubernden nicht angreifen oder als Ziel für verletzende Fähigkeiten oder magische Effekte wählen.",
+			"Der Bezaubernde hat Vorteil auf Fähigkeitenproben in sozialer Interaktion mit dir."
         ]
     },
     {
@@ -29,7 +29,7 @@ data_condition = [
         description: "Du kannst nicht hören",
         reference: "PHB, Seite 292.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Du verlierst Fähigkeitenproben, die Hören benötigen, automatisch.",
         ]
     },
     {
@@ -39,32 +39,32 @@ data_condition = [
         description: "Erschöpfung wird in sechs Stufen unterschieden",
         reference: "PHB, Seite 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink."
+            "<table><tr><th>Stufe</th><th></th><th></th><th style='text-align:left'>Effekt</th></tr><tr><td>1</td><td></td><td></td><td>Nachteil auf Fähigkeitenproben</td></tr><tr><td>2</td><td></td><td></td><td>Geschwindigkeit halbiert</td></tr><tr><td>3</td><td></td><td></td><td>Nachteil auf Angriffe und Rettungswürfe</td></tr><tr><td>4</td><td></td><td></td><td>Trefferpunkte-Maximum halbiert</td></tr><tr><td>5</td><td></td><td></td><td>Geschwindigkeit auf 0 reduziert</td></tr><tr><td>6</td><td></td><td></td><td>Tod</td></tr></table>",
+            "Du erleidest den Effekt deiner aktuelle Erschöpfungsstufe, sowie aller niedrigeren Stufen.",
+            "Eine lange Rast zu beenden reduziert deine Erschöpfungsstufe um 1, vorausgesetzt du hattest zu essen und zu trinken.",
         ]
     },
     {
         title: "Verängstigt",
         icon: "sharp-smile",
-        subtitle: "Du bist verängstigt",
-        description: "Du bist verängstigt",
+        subtitle: "Du hast Angst",
+        description: "Du hast Angst",
         reference: "PHB, Seite 292.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil solange die Quelle deiner Angst für dich sichtbar ist.",
+			"Du kannst dich nicht willentlich der Quelle deiner Angst nähern.",
         ]
     },
     {
         title: "Gepackt",
         icon: "grab",
-        subtitle: "Du bist gepackt",
-        description: "Du bist gepackt",
-        reference: "PHB, Seite 290.",
+        subtitle: "Du bist im Haltegriff",
+        description: "Du bist im Haltegriff",
+        reference: "PHB, Seite 291.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "Deine Geschwindigkeit ist 0 und du kannst nicht von Bonus auf deine Geschwindigkeit profitieren.",
+			"Der Zustand endet, wenn der Haltende kampfunfähig wird.",
+            "Der Zustand endet außerdem, wenn du aus der Reichweite des Haltenden entfernt wirst."
         ]
     },
     {
@@ -72,7 +72,7 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "Weder Aktionen noch Reaktionen",
         description: "Du kannst weder Aktionen noch Reaktionen ausführen",
-        reference: "PHB, Seite 290.",
+        reference: "PHB, Seite 291.",
         bullets: [
         ]
     },
@@ -81,12 +81,12 @@ data_condition = [
         icon: "invisible",
         subtitle: "Du kannst nicht gesehen werden",
         description: "Ohne die Hilfe von Magie oder speziellen Sinnen kannst du nicht gesehen werden",
-        reference: "PHB, Seite 291.",
+        reference: "PHB, Seite 292.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Du giltst als komplett verschleiert, wenn du versuchst dich zu verstecken.",
+			"Du kannst immer noch durch Geräusche oder von dir hinterlassene Spuren entdeckt werden.",
+            "Du hast Vorteil auf Angriffswürfe.",
+            "Angriffswürfe gegen dich sind im Nachteil.",
         ]
     },
     {
@@ -94,26 +94,27 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "Du bist gelähmt",
         description: "Du kannst nichts tun",
+		reference: "PHB, Seite 291.",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Du bist <i>kampfunfähig</i> und kannst dich weder bewegen noch sprechen.",
+			"Angriffswürfe gegen dich sind im Vorteil.",
+            "Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
         ]
     },
     {
         title: "Versteinert",
         icon: "stone-pile",
         subtitle: "Du bist in Stein verwandelt",
-        description: "Du bist, zusammen mit allen nichtmagischen Objekten die du trägst oder mitführst, in eine feste, unbewegliche Substanz (meistens Stein) verwandelt worden",
-        reference: "PHB, Seite 291.",
+        description: "Du bist, zusammen mit allen nicht-magischen Objekten die du trägst oder mitführst, in eine feste, unbewegliche Substanz (meistens Stein) verwandelt worden",
+        reference: "PHB, Seite 292.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Dein Gewicht verzehnfacht sich und du hörst auf zu altern.",
+			"Du bist <i>kampfunfähig</i>, kannst dich weder bewegen noch sprechen und nimmst deine Umgebung nicht mehr wahr.",
+            "Angriffswürfe gegen dich sind im Vorteil.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "Du bist gegen jeden Schaden resistent",
+            "Du bist immun gegen Gifte und Krankheit, allerdings ist ein Gift, von dem du bereits betroffen bist, nur ruhend und nicht neutralisiert."
         ]
     },
     {
@@ -123,7 +124,7 @@ data_condition = [
         description: "Du bist vergiftet",
         reference: "PHB, Seite 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil.",
         ]
     },
     {
@@ -131,11 +132,11 @@ data_condition = [
         icon: "crawl",
         subtitle: "Du liegst",
         description: "Du liegst",
-        reference: "PHB, Seite 292.",
+        reference: "PHB, Seite 291.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Deine einzige Bewegungsoption ist <i>Kriechen</i>, wenn du nicht aufstehst.",
+			"Du bist bei Angriffen im Nachteil.",
+			"Angriffe gegen dich sind im Vorteil, wenn der Angreifer innerhalb von 5 Fuß von dir ist, anderenfalls sind sie im Nachteil."
         ]
     },
     {
@@ -143,12 +144,12 @@ data_condition = [
         icon: "imprisoned",
         subtitle: "Du bist festgesetzt",
         description: "Du bist festgesetzt",
-        reference: "PHB, Seite 292.",
+        reference: "PHB, Seite 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "Deine Geschwindigkeit ist 0 und du kannst nicht von Bonus auf deine Geschwindigkeit profitieren.",
+            "Du bist bei Angriffen im Nachteil.",
+            "Angriffe gegen dich sind im Vorteil.",
+            "Du bist bei Rettungswürfen auf Geschicklichkeit im Nachteil."
         ]
     },
     {
@@ -156,11 +157,11 @@ data_condition = [
         icon: "internal-injury",
         subtitle: "Du bist betäubt",
         description: "Du bist betäubt",
-        reference: "PHB, Seite 292.",
+        reference: "PHB, Seite 290.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nur stammelnd reden.",
+			"Angriffe gegen dich sind im Vorteil.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
         ]
     },
     {
@@ -168,13 +169,13 @@ data_condition = [
         icon: "coma",
         subtitle: "Du bist bewusstlos",
         description: "Du bist bewusstlos",
-        reference: "PHB, Seite 292.",
+        reference: "PHB, Seite 290.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nimmst deine Umgebung nicht wahr.",
+            "Du lässt fallen was du in Händen hältst und fällst hin.",
+            "Angriffe gegen dich sind im Vorteil.",
+			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
         ]
     }
 ]

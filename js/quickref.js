@@ -42,6 +42,8 @@ function show_modal(data, color, type) {
 
     var bullets_html = bullets.map(function (item) { return "<p class=\"fonstsize\">" + item + "</p>"; }).join("\n<hr>\n");
     $("#modal-bullets").html(bullets_html);
+    
+    ft2m();
 }
 
 function hide_modal() {
@@ -57,18 +59,20 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
-    fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction, "basic-reactions", "Reaction");
-    fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_movement, "basic-movement", "Bewegung");
+    fill_section(data_action, "basic-actions", "Aktion");
+    fill_section(data_bonusaction, "basic-bonus-actions", "Bonusaktion");
+    fill_section(data_reaction, "basic-reactions", "Reaktion");
+    fill_section(data_condition, "basic-conditions", "Zustand");
+    fill_section(data_environment_obscurance, "environment-obscurance", "Umgebung");
+    fill_section(data_environment_light, "environment-light", "Umgebung");
+    fill_section(data_environment_vision, "environment-vision", "Umgebung");
+    fill_section(data_environment_cover, "environment-cover", "Umgebung");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
+
+    ft2m();
 }
 
 $(window).load(init);

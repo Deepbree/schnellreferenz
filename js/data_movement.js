@@ -6,10 +6,10 @@ data_movement = [
         description: "Bewegungskosten: 5ft pro 5ft bewegen",
         reference: "PHB, Seite 190.",
         bullets: [
-            "Wenn du mehr als eine Bewegungsrate hast, so wie eine Gehbewegungsrate und eine Flugbewegungsrate, kannst du während deiner Bewegung zwischen ihnen hin und her wechseln. Wann immer du wechselst, zieh die Gesamtdistanz, die du dich bisher bewegt hast, von der neuen Bewegungsrate ab",
-			"Du kannst dich durch den Bereich einer nichtfeindlichen Kreatur bewegen",
+            "Wenn du mehr als eine Bewegungsrate hast, so wie deine herkömmliche und eine Flugbewegungsrate, kannst du während deiner Bewegung zwischen ihnen hin und her wechseln. Wann immer du wechselst, zieh die Gesamtdistanz, die du dich bisher bewegt hast, von der aktiven Bewegungsrate ab",
+			"Du kannst dich durch den Bereich einer nicht-feindlichen Kreatur bewegen",
 			"Du kannst dich nur dann durch den Bereich einer feindlichen Kreatur bewegen, wenn sie mindestens zwei Größenkategorien größer oder kleiner als du ist",
-			"Der Bereich einer anderen Kreatur ist für dich Schwieriges Gelände",
+			"Der Bereich einer anderen Kreatur ist für dich <i>Schwieriges Gelände</i>",
             "Du kannst deinen Zug nicht willentlich im Bereich einer Kreatur beenden, egal ob sie Freund oder Feind ist."
         ]
     },
@@ -38,7 +38,7 @@ data_movement = [
         icon: "falling",
         subtitle: "Kosten: 0ft",
         description: "Bewegungskosten: 0ft (frei)",
-        reference: "PHB, pgs. 190-191,291.",
+        reference: "PHB, Seiten 190-191,291.",
         bullets: [
             "Du kannst dich fallen lassen ohne deine Bewegungsrate aufzubrauchen",
 			"Um sich liegend zu bewegen, musst du kriechen oder Magie (wie Teleportation) nutzen",
@@ -62,7 +62,7 @@ data_movement = [
         description: "Bewegungskosten: Hälfte deiner vollen Bewegungsrate",
         reference: "PHB, Seite 190-191.",
         bullets: [
-            "Wenn deine Geschwindigkeit 0 ist, oder du nicht mehr genügend Bewegunsrate übrig hast, kannst du nicht aufstehen"
+            "Wenn deine Geschwindigkeit 0 ist, oder du nicht mehr genügend Bewegungsrate übrig hast, kannst du nicht aufstehen"
         ]
     },
     {
@@ -73,7 +73,7 @@ data_movement = [
         
         reference: "PHB, Seite 182.",
         bullets: [
-            "Du springst eine Distanz in die Höhe, die <b>3 + deinen Stärkemodifikator</b> Fuß entspricht, wenn du dich direkt vor dem Spring mindestens 10 Fuß bewegt hast.",
+            "Du springst eine Distanz in die Höhe, die <b>(3 + deinen Stärkemodifikator)</b> in Fuß entspricht, wenn du dich direkt vor dem Sprung mindestens 10 Fuß bewegt hast.",
 			"Ohne Anlauf springst du halb so hoch",
             "Während dem Sprung kannst du deine Arme um die Hälfte deiner Körpergröße ausstrecken",
             "Unter Umständen erlaubt dein DM eine Probe auf Stärke (Athletik) um höher zu springen, als es normalerweise möglich wäre."
@@ -86,10 +86,10 @@ data_movement = [
         description: "Bewegungskosten: 5ft pro 5ft gesprungen",
         reference: "PHB, Seite 182.",
         bullets: [
-            "Du springst eine Distanz weit, die deinem <b>Stärkewert</b> entspricht, wenn du dich direkt vor dem Spring mindestens 10 Fuß bewegt hast.",
+            "Du springst eine Distanz weit, die deinem <b>(Stärkewert)</b> in Fuß entspricht, wenn du dich direkt vor dem Sprung mindestens 10 Fuß bewegt hast.",
 			"Ohne Anlauf springst du halb so weit",
-			"Könnten eine Probe auf Stärke (Athletik) gegen HG 10 beinhalten um ein niederes Hindernis (nicht höher als ein Viertel der Sprungdistanz) zu überspringen. Du triffst das Hindernis bei einer fehlgeschlagenen Probe.",
-            "Könnten eine Probe auf Geschicklichkeit (Akrobatic) gegen HG 10 beinhalten um in schwierigem Gelände auf den Füßen zu landen. Du erhälst den Zustand <i>Liegend</i> bei einer fehlgeschlagenen Probe.",
+			"Kann eine Probe auf Stärke (Athletik) gegen HG 10 beinhalten, um ein niederes Hindernis (nicht höher als ein Viertel der Sprungdistanz) zu überspringen. Du triffst das Hindernis bei einer fehlgeschlagenen Probe.",
+            "Kann eine Probe auf Geschicklichkeit (Akrobatik) gegen HG 10 beinhalten, um in schwierigem Gelände auf den Füßen zu landen. Du erhältst den Zustand <i>Liegend</i> bei einer fehlgeschlagenen Probe.",
         ]
     },
     {
