@@ -12,6 +12,30 @@
     <link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
     <!-- Javascript -->
     <script type="text/javascript" src="js/jquery/jquery.min.js" charset="utf-8"></script>
+	<style>
+		footer {
+			text-align:center;
+			font-family:'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+			background-image:url(http://www.dnddeutsch.de/wp-content/uploads/2018/05/d3_full_transparent_small.png);background-repeat:no-repeat; 
+			background-position:right; 
+			height:110px; 
+			padding-top:40px
+		}
+		@media only screen and (max-width: 600px) {
+			footer {
+				background-position:center 20px;
+				padding-top:140px;
+				height:180px;
+			}
+		}
+		@media print {
+			footer {
+				background-position:center 10px;
+				padding-top:130px;
+				height:160px;
+			}
+		}
+	</style>
 </head>
 <body class="page-background">
     <div class="page fontsize" data-size="fullscreen">
@@ -36,7 +60,7 @@
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Au&szlig;erdem kannst du kostenlos mit einem Objekt oder Teil der Umgebung interagieren.
+                    Neben deiner Aktion kannst du kostenlos mit einem Objekt oder der Umgebung interagieren.
                 </div>
                 <div class="section-row" id="basic-actions"></div>
             </div>
@@ -49,7 +73,7 @@
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Eine Bonusaktion kannst du nur dann ausf&uuml;hren, wenn eine spezielle F&auml;higkeit, ein Zauber oder Merkmal angibt, dass du etwas als Bonusaktion tun kannst.
+                    Eine Bonusaktion kannst du nur dann ausf&uuml;hren, wenn eine F&auml;higkeit, ein Zauber oder Merkmal angibt, dass du etwas als Bonusaktion tun kannst.
                 </div>
                 <div class="section-row" id="basic-bonus-actions"></div>
             </div>
@@ -62,7 +86,7 @@
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Eine Reaktion ist eine sofortige Erwiderung auf einen Umstand, der in deinem Zug oder im Zug einer anderen Kreatur ausgel&ouml;st wird.
+                    Eine Reaktion ist eine sofortige Erwiderung auf einen Auslöser, der in deinem Zug oder im Zug einer anderen Kreatur passiert.
                 </div>
                 <div class="section-row" id="basic-reactions"></div>
             </div>
@@ -75,7 +99,7 @@
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Zust&auml;nde ver&auml;ndern deine F&auml;higkeiten auf verschiedene Weisen und k&ouml;nnen das Ergebnis eines Zaubers, Klassenmerkmals, des Angriffs eines Monsters oder eines anderen Effektes sein.
+                    Zust&auml;nde ver&auml;ndern deine F&auml;higkeiten auf verschiedene Weisen und k&ouml;nnen das Ergebnis eines Zaubers, Merkmals, des Angriffs eines Monsters oder eines anderen Effektes sein.
                 </div>
                 <div class="section-row" id="basic-conditions"></div>
             </div>
@@ -88,24 +112,24 @@
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Effekte, die die Sicht beeintr&auml;chtigen, k&ouml;nnen sich als erhebliche Hindernisse f&uuml;r die meisten Aufgaben heraus stellen.
+                    Effekte, die die Sicht beeintr&auml;chtigen, k&ouml;nnen sich als erhebliche Hindernisse f&uuml;r viele Aufgaben heraus stellen.
                 </div>
                 <div class="section-row" id="environment-obscurance"></div>
                 <div class="section-row section-subtitle text fontsize">
-                    Das Vorhandensein oder Fehlen von Licht in der Umgebung führt zu drei Kategorien von Beleuchtung
+                    Das Vorhandensein oder Fehlen von Licht in der Umgebung führt zu drei Kategorien von Beleuchtung.
                 </div>
                 <div class="section-row" id="environment-light"></div>
                 <div class="section-row section-subtitle text fontsize">
-                    Manche Kreaturen haben au&szlig;ergew&ouml;hnliche Sinne, die ihnen erlauben ihre Umgebung wahrzunehmen.
+                    Manche Kreaturen haben au&szlig;ergew&ouml;hnliche Sinne mit denen sie ihre Umgebung wahrnehmen.
                 </div>
                 <div class="section-row" id="environment-vision"></div>
                 <div class="section-row section-subtitle text fontsize">
-                    Hindernisse k&ouml;nnen im Kampf Deckung geben, indem sie es schwieriger machen ein Ziel zu treffen.
+                    Hindernisse k&ouml;nnen im Kampf Deckung geben, da sie es schwieriger machen ein Ziel zu treffen.
                 </div>
                 <div class="section-row" id="environment-cover"></div>
             </div>
         </div>
-		<footer style="text-align:center; font-family:'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif; background-image:url(http://www.dnddeutsch.de/wp-content/uploads/2018/05/d3_full_transparent_small.png);background-repeat:no-repeat; background-position:right; height:110px; padding-top:40px">
+		<footer>
 			D&D 5e Schnellreferenz von <a href="http://www.dnddeutsch.de">D3: Dungeons & Dragons auf Deutsch</a><br>
 			basiert auf <a href="https://crobi.github.io/dnd5e-quickref/">D&D 5e quick reference</a> von <a href="https://github.com/crobi">crobi</a>
 		</footer>

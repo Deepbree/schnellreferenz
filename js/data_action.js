@@ -3,11 +3,11 @@ data_action = [
         title: "Angriff",
         icon: "crossed-swords",
         subtitle: "Nah- oder Fernkampfangriff",
-        description: "Vollführe einen Nahkampf- oder Fernkampfangriff mit deiner Waffe",
+        description: "Vollführe einen Nah- oder Fernkampfangriff mit deiner Waffe",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Bestimmte Merkmale, wie zum Beispiel der <i>Zusätzliche Angriff</i> des Kämpfers, erlauben mehr als einen Angriff mit dieser Aktion auszuführen. Jeder dieser Angriffe ist ein eigener Angriffswurf und kann sich gegen eine andere Kreatur richten. Du kannst dich zwischen den Angriffen bewegen.",
-			"Wenn du mit einer leichten Nahkampfwaffe angreifst, kannst du eine Bonusaktion verwenden um mit einer zweiten leichten Nahkampfwaffe in deiner anderen Hand anzugreifen (siehe die Bonusaktion <i>Angriff mit Zweitwaffe</i>).",
+			"Wenn du mit einer leichten Nahkampfwaffe angreifst, kannst du eine Bonusaktion verwenden, um mit einer zweiten leichten Nahkampfwaffe in deiner anderen Hand anzugreifen (siehe die Bonusaktion <i>Angriff mit Zweitwaffe</i>).",
             "Du kannst einen deiner Nahkampfangriffe durch die <i>Ringen</i>- oder <i>Stoßen</i>-Aktion ersetzen.",
             "Manche Zustände gewähren Vorteil auf einen Angriff: Angriffe gegen blinde, gelähmte, versteinerte, festgesetzte, betäubte oder bewusstlose Ziele; Nahkampfangriffe gegen liegende Ziele; Angriffe durch unsichtbare oder versteckte Angreifer.",
             "Manche Zustände gewähren Nachteil auf einen Angriff: Angriffe gegen unsichtbare oder versteckte Ziele; Fernkampfangriffe gegen liegende Ziele; Angriffe durch blinde, verängstigte, vergiftete oder festgesetzte Angreifer." 
@@ -42,14 +42,15 @@ data_action = [
     {
         title: "Zauberwirken",
         icon: "magic-swirl",
-        subtitle: "Zauberzeit von 1 Aktion",
-        description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Aktion",
-        reference: "PHB, Seite 193.",
+        subtitle: "Zauberzeit: 1 Aktion/länger",
+        description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Aktion oder länger",
+        reference: "PHB, Seiten 193,202.",
         bullets: [
             "Du kannst mit deiner Aktion keinen Zauberspruch wirken, während du gleichzeitig einen anderen Zauberspruch mit deiner Bonusaktion wirkst, es sei denn, die Aktion wird für einen Zaubertrick verwendet.",
 			"Das Ziel eines Zauberspruchs muss innerhalb der Reichweite des Zauberspruchs sein. Um zu zielen muss der Pfad zwischen dir und dem Ziel frei sein, d.h. das Ziel darf nicht hinter voller Deckung sein.",
 			"Zaubersprüche mit Material-Komponenten verbrauchen das Material nicht, sofern dies nicht explizit angegeben ist. Wenn keine Kosten für das Material angegeben sind, kannst du annehmen, dass die Kosten vernachlässigbar sind und dass das Material in deiner Komponententasche verfügbar ist.",
             "Manche Zaubersprüche erfordern, dass du Konzentration aufrecht erhältst um ihre Magie aktiv zu halten. Wenn du die Konzentration verlierst, endet ein solcher Zauberspruch. Du verlierst die Konzentration, wenn du einen anderen Spruch wirkst, der ebenfalls Konzentration erfordert, oder wenn du kampfunfähig bist. Jedes Mal, wenn du Schaden nimmst, musst du eine Probe auf Konstitution werfen. Der Herausforderungsgrad entspricht 10 oder der Hälfte des Schadens, den du nimmst, je nachdem was höher ist.",
+			"Zaubersprüche mit einer Zauberzeit von mehr als 1 Aktion müssen über mehrere Runden gezaubert werden, bis die Zauberzeit erreicht ist. Dazu wendest du in jeder Runde deine Aktion auf. Während dieser Zeit musst du Konzentration aufrecht erhalten. Schaffst du es nicht die Konzentration zu halten, bricht der Zauber ab, aber es wird kein Zauberplatz verbraucht."
         ]
     },
     {
@@ -123,7 +124,7 @@ data_action = [
         description: "Lege einen Schild an oder ab",
         reference: "PHB, pgs. 144-146.",
         bullets: [
-            "Einen Schild an- oder abzulegen erfordert immer eine Aktion.",
+            "Einen Schild an- oder abzulegen erfordert eine Aktion.",
 			"Rüstung an- oder abzulegen dauert mehrere Minuten (1 min Leichte Rüstung, 5 min Mittelschwere Rüstung, 10 min Schwere Rüstung)",
         ]
     },
@@ -135,9 +136,10 @@ data_action = [
         reference: "PHB, Seite 192.",
         bullets: [
             "Du kannst dich nicht vor einer Kreatur verstecken, die dich sehen kann. Du musst volle Deckung haben, in einem komplett verschleierten Bereich sein, unsichtbar sein oder anderweitig die Sicht des Feindes blockieren.",
-			"Wenn du Geräusche machst (zum Beispiel eine Warnung rufen, oder eine Vase umstoßen), verrätst du deine Position.",
             "Wirf eine Probe auf Geschicklichkeit (Heimlichkeit), wenn du versuchst dich zu verstecken und notiere das Ergebnis. Bis du entdeckt wirst, oder aufhörst dich zu verstecken wird dieses Ergebnis von Proben auf Weisheit (Wahrnehmung) von Kreaturen, die aktiv nach dir oder nach Zeichen deiner Anwesenheit suchen, gekontert.",
             "Eine Kreatur bemerkt dich auch ohne zu suchen, wenn das Ergebnis deiner Heimlichkeits-Probe kleiner oder gleich seiner passiven Wahrnehmung ist.",
+			"Wenn du Geräusche machst (zum Beispiel eine Warnung rufen, oder eine Vase umstoßen), verrätst du deine Position und wirst entdeckt.",
+			"Ob du aus deinem Versteck heraustreten und trotzdem noch für den Rest deines Zuges als versteckt gelten kannst, entscheidet der DM.",
             "Außerhalb des Kampfes kannst du außerdem Proben auf Geschicklichkeit (Heimlichkeit) ablegen um dich vor Feinden zu tarnen, an Wachen vorbei zu schleichen, entkommen ohne bemerkt zu werden oder an jemanden heran zu schleichen ohne gesehen oder gehört zu werden.",
         ]
     },
@@ -167,7 +169,7 @@ data_action = [
     {
         title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Merkmale die Aktionen nutzen",
+        subtitle: "Rassen-/Klassenmerkmal",
         description: "Nutze ein Rassen- oder Klassenmerkmal, das eine Aktion verbraucht",
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [

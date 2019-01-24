@@ -6,7 +6,7 @@ data_condition = [
         description: "Du kannst nicht sehen",
         reference: "PHB, Seite 290.",
         bullets: [
-            "Du verlierst Fähigkeitenproben, die Sicht benötigen, automatisch.",
+            "Du verlierst Fähigkeitenproben die Sicht benötigen automatisch.",
 			"Du hast Nachteil auf Angriffswürfe.",
             "Angriffswürfe gegen dich haben Vorteil.",
         ]
@@ -18,7 +18,7 @@ data_condition = [
         description: "Du bist von einer anderen Kreatur bezaubert",
         reference: "PHB, Seite 290.",
         bullets: [
-            "Du kannst den Bezaubernden nicht angreifen oder als Ziel für verletzende Fähigkeiten oder magische Effekte wählen.",
+            "Du kannst den Bezaubernden nicht angreifen oder als Ziel für verletztende Fähigkeiten oder magische Effekte wählen.",
 			"Der Bezaubernde hat Vorteil auf Fähigkeitenproben in sozialer Interaktion mit dir."
         ]
     },
@@ -29,7 +29,7 @@ data_condition = [
         description: "Du kannst nicht hören",
         reference: "PHB, Seite 292.",
         bullets: [
-            "Du verlierst Fähigkeitenproben, die Hören benötigen, automatisch.",
+            "Du verlierst Fähigkeitenproben die Hören benötigen automatisch.",
         ]
     },
     {
@@ -42,7 +42,7 @@ data_condition = [
             "<table><tr><th>Stufe</th><th></th><th></th><th style='text-align:left'>Effekt</th></tr><tr><td>1</td><td></td><td></td><td>Nachteil auf Fähigkeitenproben</td></tr><tr><td>2</td><td></td><td></td><td>Geschwindigkeit halbiert</td></tr><tr><td>3</td><td></td><td></td><td>Nachteil auf Angriffe und Rettungswürfe</td></tr><tr><td>4</td><td></td><td></td><td>Trefferpunkte-Maximum halbiert</td></tr><tr><td>5</td><td></td><td></td><td>Geschwindigkeit auf 0 reduziert</td></tr><tr><td>6</td><td></td><td></td><td>Tod</td></tr></table>",
             "Du erleidest den Effekt deiner aktuelle Erschöpfungsstufe, sowie aller niedrigeren Stufen.",
             "Eine lange Rast zu beenden reduziert deine Erschöpfungsstufe um 1, vorausgesetzt du hattest zu essen und zu trinken.",
-			"Von den Toten erweckt zu werden, reduziert deine Erschöpfungsstufe um 1"
+			"Von den Toten erweckt zu werden, reduziert deine Erschöpfungsstufe um 1."
         ]
     },
     {
@@ -52,14 +52,14 @@ data_condition = [
         description: "Du hast Angst",
         reference: "PHB, Seite 292.",
         bullets: [
-            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil solange die Quelle deiner Angst für dich sichtbar ist.",
+            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil, solange die Quelle deiner Angst für dich sichtbar ist.",
 			"Du kannst dich nicht willentlich der Quelle deiner Angst nähern.",
         ]
     },
     {
         title: "Gepackt",
         icon: "grab",
-        subtitle: "Du bist im Haltegriff",
+        subtitle: "Geschwindigkeit: 0",
         description: "Du bist im Haltegriff",
         reference: "PHB, Seite 291.",
         bullets: [
@@ -80,7 +80,7 @@ data_condition = [
     {
         title: "Unsichtbar",
         icon: "invisible",
-        subtitle: "Du kannst nicht gesehen werden",
+        subtitle: "Du wirst nicht gesehen",
         description: "Ohne die Hilfe von Magie oder speziellen Sinnen kannst du nicht gesehen werden",
         reference: "PHB, Seite 292.",
         bullets: [
@@ -106,7 +106,7 @@ data_condition = [
     {
         title: "Versteinert",
         icon: "stone-pile",
-        subtitle: "Du bist in Stein verwandelt",
+        subtitle: "Du wirst zu Stein",
         description: "Du bist, zusammen mit allen nicht-magischen Objekten die du trägst oder mitführst, in eine feste, unbewegliche Substanz (meistens Stein) verwandelt worden",
         reference: "PHB, Seite 292.",
         bullets: [

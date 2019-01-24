@@ -15,7 +15,7 @@ data_bonusaction = [
     {
         title: "Zauberwirken",
         icon: "magic-swirl",
-        subtitle: "Zauberzeit von 1 Bonusaktion",
+        subtitle: "Zauberzeit: 1 Bonusaktion",
         description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Bonusaktion",
         reference: "PHB, Seite 193.",
         bullets: [
@@ -26,7 +26,7 @@ data_bonusaction = [
     {
         title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Merkmale die Bonusaktionen nutzen",
+        subtitle: "Rassen-/Klassenmerkmal",
         description: "Nutze ein Rassen- oder Klassenmerkmal, das eine Bonusaktion verbraucht",
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [

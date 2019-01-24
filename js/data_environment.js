@@ -83,7 +83,7 @@ data_environment_vision = [
     {
         title: "Wahrer Blick",
         icon: "eye-shield",
-        subtitle: "In Dunkelheit sehen",
+        subtitle: "Alles sehen",
         description: "Eine Kreatur mit Wahrem Blick kann unabhängig von der Umgebung alles in seiner wahren Form sehen",
         reference: "PHB, Seite 185.",
         bullets: [
