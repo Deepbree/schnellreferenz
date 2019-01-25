@@ -56,7 +56,7 @@ data_action = [
     {
         title: "Spurt",
         icon: "sprint",
-        subtitle: "Verdopple deine Geschwindigkeit",
+        subtitle: "Doppelte Geschwindigkeit",
         description: "Erhalte zusätzliche Bewegung für den aktuellen Zug",
         reference: "PHB, Seite 192.",
         bullets: [

@@ -2,7 +2,7 @@ data_bonusaction = [
     {
         title: "Angriff mit Zweitwaffe",
         icon: "crossed-swords",
-        subtitle: "Mit der Angriffsaktion zu benutzen",
+        subtitle: "Nur mit Angriffsaktion",
         description: "Greife mit deiner zweiten Waffe an",
         reference: "PHB, Seiten 192,194-195.",
         bullets: [
