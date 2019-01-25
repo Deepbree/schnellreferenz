@@ -97,7 +97,7 @@ data_environment_cover = [
     {
         title: "Teildeckung",
         icon: "broken-shield",
-        subtitle: "Niedrige Mauern, Möbel, Kreaturen",
+        subtitle: "Niedr. Mauern, Möbel, Kreatur",
         description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
         reference: "PHB, Seiten 195-196.",
         bullets: [
