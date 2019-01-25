@@ -71,7 +71,7 @@ data_condition = [
     {
         title: "Kampfunfähig",
         icon: "internal-injury",
-        subtitle: "Weder Aktionen noch Reaktionen",
+        subtitle: "Weder Aktion noch Reaktion",
         description: "Du kannst weder Aktionen noch Reaktionen ausführen",
         reference: "PHB, Seite 291.",
         bullets: [
