@@ -16,8 +16,8 @@ data_action = [
     {
         title: "Ringen",
         icon: "grab",
-        subtitle: "Spezieller Nahkampfangriff",
-        description: "Versuche eine Kreature zu packen oder ringe mit ihr",
+        subtitle: "Athletik vs. Akrobatik/Athletik",
+        description: "Spezieller Nahkampfangriff. Versuche eine Kreatur zu packen oder ringe mit ihr",
         reference: "PHB, Seite 195.",
         bullets: [
             "Du kannst die <i>Angriff</i>-Aktion für einen speziellen Nahkampfangriff verwenden, das Ringen. Wenn du in der Lage bist mehrere Angriffe mit der <i>Angriff</i>-Aktion zu machen, ersetzt dieser Angriff einen davon.",
@@ -29,8 +29,8 @@ data_action = [
     {
         title: "Stoßen",
         icon: "hand",
-        subtitle: "Spezieller Nahkampfangriff",
-        description: "Stoße eine Kreatur, entweder um sie zu Boden zu werfen oder von dir fort zu schieben",
+        subtitle: "Athletik vs. Akrobatik/Athletik",
+        description: "Spezieller Nahkampfangriff. Stoße eine Kreatur, entweder um sie zu Boden zu werfen oder von dir fort zu schieben",
         reference: "PHB, Seite 195.",
         bullets: [
             "Du kannst die <i>Angriff</i>-Aktion für einen speziellen Nahkampfangriff verwenden, das Stoßen. Wenn du in der Lage bist mehrere Angriffe mit der <i>Angriff</i>-Aktion zu machen, ersetzt dieser Angriff einen davon.",
@@ -86,7 +86,7 @@ data_action = [
     {
         title: "Entkommen",
         icon: "manacles",
-        subtitle: "Entkomme einem Haltegriff",
+        subtitle: "Akrobatik/Athletik vs. Athletik",
         description: "Entkomme einem Haltegriff",
         reference: "PHB, Seite 195.",
         bullets: [
@@ -131,7 +131,7 @@ data_action = [
     {
         title: "Verstecken",
         icon: "hood",
-        subtitle: "Versuche dich zu verstecken",
+        subtitle: "Heimlichkeit vs. Wahrnehmung",
         description: "Versuche dich zu verstecken",
         reference: "PHB, Seite 192.",
         bullets: [
@@ -146,7 +146,7 @@ data_action = [
     {
         title: "Suchen",
         icon: "magnifying-glass",
-        subtitle: "Suche etwas",
+        subtitle: "Wahrnehmung, Nachforschen",
         description: "Widme deine Aufmerksamkeit ganz der Suche nach etwas",
         reference: "PHB, Seite 192.",
         bullets: [
@@ -179,7 +179,7 @@ data_action = [
     {
         title: "Erste Hilfe",
         icon: "medical-pack",
-        subtitle: "Verhindere den Tod",
+        subtitle: "Medizin",
         description: "Stabilisiere eine Kreatur und verhindere, dass sie stirbt",
         reference: "PHB, Seite 197.",
         bullets: [
