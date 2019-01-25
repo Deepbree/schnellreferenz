@@ -2,7 +2,7 @@ data_reaction = [
     {
         title: "Gelegenheitsangriff",
         icon: "crossed-swords",
-        subtitle: "Ein Feind verlässt deinen Bereich",
+        subtitle: "Feind verlässt deinen Bereich",
         description: "Man kommt selten einfach so an seinen Feinden vorbei ohne sich in Gefahr zu bringen",
         reference: "PHB, Seite 195.",
         bullets: [
